@@ -1,0 +1,111 @@
+/* QUESTA CLASSE BODY VA SOSTIUITA CON QUELLA DEL MAINPROG */
+/* body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+} */
+/* QUESTA CLASSE BODY VA SOSTIUITA CON QUELLA DEL MAINPROG */
+
+.mainContainer {
+	font-family: "Inter", sans-serif;
+	color: white;
+	padding: 0;
+	margin-top: -740px;
+	margin-left: 950px;
+	/* margin-left: 50%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transform: scale(50%);
+	/*     height: 100vh;           
+    margin: 0; 
+    background-color: orange; */
+}
+
+.circleContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ddd;
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+	mask: radial-gradient(circle, transparent 45%, black 46%);
+	-webkit-mask: radial-gradient(circle, transparent 60%, black 46%);
+}
+
+.semicircle1 {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #00ffff;
+	z-index: 2;
+	transform-origin: right center;
+}
+
+.semicircle2 {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #00ffff;
+	z-index: 3;
+	transform-origin: right center;
+	transition: background-color 0.5s ease;
+}
+
+.semicircle3 {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ddd;
+	z-index: 4;
+	transform-origin: right center;
+}
+
+.outermost {
+	background-color: black;
+	border-radius: 50%;
+	width: 380px;
+	height: 380px;
+	z-index: 5;
+	position: absolute;
+	display: none;
+}
+
+.numeri {
+	font-size: 150px;
+}
+
+.containerCount {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	/* margin-left: 20px; */
+}
+
+/* USO HOVER PER VEDERE L'ANIMAZIONE CREATA, FUNZIONA MA AL CONTRARIO
+
+.circleContainer:hover .semicircle1{
+   transform: rotate(180deg);
+   transition: 1s linear;
+}
+
+.circleContainer:hover .semicircle2{
+    transform: rotate(360deg);
+    transition: 2s linear;
+ }
+
+ .circleContainer:hover .semicircle3{
+    opacity: 0;
+    transition: opacity 0s 1s;
+ } */

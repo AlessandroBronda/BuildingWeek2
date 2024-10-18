@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz a Risposta Multipla</title>
+		<link rel="stylesheet" href="style2.css" />
+		<link rel="stylesheet" href="styleTimer.css" />
+
+		<!-- font per titioli: OUTFIT -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- font per descrizione: INTER -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div id="mainContainer">
+			<header>
+				<img id="logo" src="epicode_logo.png" alt="" />
+			</header>
+			<main>
+				<div id="testContainer">
+					<div id="titolo">
+						<h1>Welcome to your exam</h1>
+					</div>
+					<div id="instruction">
+						<h2>Instructions</h2>
+						<p>
+							We don't expext most engineers to know the answer to all of these
+							questions, so don't worry if you're unsure of a few of them.
+						</p>
+					</div>
+					<div id="instruction2">
+						<ul>
+							<li>
+								Each question is <b>timed</b> and can only be
+								<b>answered once.</b>
+							</li>
+							<li>
+								Changing browser tab or opening other windows will
+								<b>invalidate the question.</b>
+							</li>
+							<li>This exam will take approx. <b>0-5 minutes.</b></li>
+						</ul>
+					</div>
+					<div id="procedi">
+						<label id="checkbox"
+							><input type="checkbox" name="" id="flag" />I promise to
+							answer myself without help from anyone</label
+						>
+						<input id="iniziaTest" type="button" value="PROCEED" />
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+	<script src="script2.js"></script>
+	<script src="scriptTimer.js"></script>
+</html>
