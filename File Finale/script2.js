@@ -149,6 +149,7 @@ function displayQuestion() {
 	}
 	// -------- Aggiunge la risposta corretta
 	allAnswers.push(currentQuestion.correct_answer);
+	allAnswers.sort(() => Math.random() - 0.5);
 
 	// -------- Aggiunge div per risposte al quiz
 	const containerAnswer = document.createElement("div");

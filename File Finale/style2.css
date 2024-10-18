@@ -143,6 +143,8 @@ main {
 	align-items: center;
 	gap: 40px 120px;
 	height: 200px;
+	width: 50%;
+	margin: 50px auto;
 }
 
 button {

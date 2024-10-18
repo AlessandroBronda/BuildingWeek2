@@ -52,7 +52,7 @@ circleContainer.appendChild(outermost);
 
 // input, in questo caso mi servono solo i secondi
 
-const sec = 16;
+const sec = 10;
 
 // la funzione di countdown. dovrò specificare quando invocarla e cosa fare una volta arrivata a 0
 // (inizio di ogni domanda, passa alla domanda successiva, aggiungi 0 al conteggio domande)
